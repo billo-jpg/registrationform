@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle, rgba(255, 223, 186, 0.8), rgba(255, 159, 243, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(145deg, rgba(52, 152, 219, 0.7), rgba(155, 89, 182, 0.7));
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 450px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.form-text.text-danger {
+    color: #e74c3c;
+}
+
+label {
+    display: inline-block;
+    margin: 20px 0 10px;
+    color: #34495e;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #16a085;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1abc9c;
+}
+
+#errorMessages {
+    color: #c0392b;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
